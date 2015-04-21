@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsRep" targetNamespace="http://tempuri.org/dsRep.xsd" xmlns:mstns="http://tempuri.org/dsRep.xsd" xmlns="http://tempuri.org/dsRep.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsRep" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsRep" msprop:Generator_UserDSName="dsRep">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtRep" msprop:Generator_TableClassName="dtRepDataTable" msprop:Generator_TableVarName="tabledtRep" msprop:Generator_TablePropName="dtRep" msprop:Generator_RowDeletingName="dtRepRowDeleting" msprop:Generator_RowChangingName="dtRepRowChanging" msprop:Generator_RowEvHandlerName="dtRepRowChangeEventHandler" msprop:Generator_RowDeletedName="dtRepRowDeleted" msprop:Generator_UserTableName="dtRep" msprop:Generator_RowChangedName="dtRepRowChanged" msprop:Generator_RowEvArgName="dtRepRowChangeEvent" msprop:Generator_RowClassName="dtRepRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PJP" msprop:Generator_ColumnVarNameInTable="columnPJP" msprop:Generator_ColumnPropNameInRow="PJP" msprop:Generator_ColumnPropNameInTable="PJPColumn" msprop:Generator_UserColumnName="PJP" type="xs:string" />
+              <xs:element name="DSR_NAME" msprop:Generator_ColumnVarNameInTable="columnDSR_NAME" msprop:Generator_ColumnPropNameInRow="DSR_NAME" msprop:Generator_ColumnPropNameInTable="DSR_NAMEColumn" msprop:Generator_UserColumnName="DSR_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="SDESC" msprop:Generator_ColumnVarNameInTable="columnSDESC" msprop:Generator_ColumnPropNameInRow="SDESC" msprop:Generator_ColumnPropNameInTable="SDESCColumn" msprop:Generator_UserColumnName="SDESC" type="xs:string" minOccurs="0" />
+              <xs:element name="JUMLAH_POP" msprop:Generator_ColumnVarNameInTable="columnJUMLAH_POP" msprop:Generator_ColumnPropNameInRow="JUMLAH_POP" msprop:Generator_ColumnPropNameInTable="JUMLAH_POPColumn" msprop:Generator_UserColumnName="JUMLAH_POP" type="xs:string" minOccurs="0" />
+              <xs:element name="ACTIVE_POP" msprop:Generator_ColumnVarNameInTable="columnACTIVE_POP" msprop:Generator_ColumnPropNameInRow="ACTIVE_POP" msprop:Generator_ColumnPropNameInTable="ACTIVE_POPColumn" msprop:Generator_UserColumnName="ACTIVE_POP" type="xs:string" minOccurs="0" />
+              <xs:element name="JUM_OUT_BELI" msprop:Generator_ColumnVarNameInTable="columnJUM_OUT_BELI" msprop:Generator_ColumnPropNameInRow="JUM_OUT_BELI" msprop:Generator_ColumnPropNameInTable="JUM_OUT_BELIColumn" msprop:Generator_UserColumnName="JUM_OUT_BELI" type="xs:string" minOccurs="0" />
+              <xs:element name="INVOICE" msprop:Generator_ColumnVarNameInTable="columnINVOICE" msprop:Generator_ColumnPropNameInRow="INVOICE" msprop:Generator_ColumnPropNameInTable="INVOICEColumn" msprop:Generator_UserColumnName="INVOICE" type="xs:string" minOccurs="0" />
+              <xs:element name="JUM_OUT_ACHV" msprop:Generator_ColumnVarNameInTable="columnJUM_OUT_ACHV" msprop:Generator_ColumnPropNameInRow="JUM_OUT_ACHV" msprop:Generator_ColumnPropNameInTable="JUM_OUT_ACHVColumn" msprop:Generator_UserColumnName="JUM_OUT_ACHV" type="xs:string" minOccurs="0" />
+              <xs:element name="JUM_INV_ACHV" msprop:Generator_ColumnVarNameInTable="columnJUM_INV_ACHV" msprop:Generator_ColumnPropNameInRow="JUM_INV_ACHV" msprop:Generator_ColumnPropNameInTable="JUM_INV_ACHVColumn" msprop:Generator_UserColumnName="JUM_INV_ACHV" type="xs:string" minOccurs="0" />
+              <xs:element name="OUT_ACHV_VS_JUM_OUT" msprop:Generator_ColumnVarNameInTable="columnOUT_ACHV_VS_JUM_OUT" msprop:Generator_ColumnPropNameInRow="OUT_ACHV_VS_JUM_OUT" msprop:Generator_ColumnPropNameInTable="OUT_ACHV_VS_JUM_OUTColumn" msprop:Generator_UserColumnName="OUT_ACHV_VS_JUM_OUT" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtHeadRep" msprop:Generator_TableClassName="dtHeadRepDataTable" msprop:Generator_TableVarName="tabledtHeadRep" msprop:Generator_TablePropName="dtHeadRep" msprop:Generator_RowDeletingName="dtHeadRepRowDeleting" msprop:Generator_RowChangingName="dtHeadRepRowChanging" msprop:Generator_RowEvHandlerName="dtHeadRepRowChangeEventHandler" msprop:Generator_RowDeletedName="dtHeadRepRowDeleted" msprop:Generator_UserTableName="dtHeadRep" msprop:Generator_RowChangedName="dtHeadRepRowChanged" msprop:Generator_RowEvArgName="dtHeadRepRowChangeEvent" msprop:Generator_RowClassName="dtHeadRepRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnPropNameInTable="NameColumn" msprop:Generator_UserColumnName="Name" type="xs:string" minOccurs="0" />
+              <xs:element name="repname" msprop:Generator_ColumnVarNameInTable="columnrepname" msprop:Generator_ColumnPropNameInRow="repname" msprop:Generator_ColumnPropNameInTable="repnameColumn" msprop:Generator_UserColumnName="repname" type="xs:string" minOccurs="0" />
+              <xs:element name="condmin" msprop:Generator_ColumnVarNameInTable="columncondmin" msprop:Generator_ColumnPropNameInRow="condmin" msprop:Generator_ColumnPropNameInTable="condminColumn" msprop:Generator_UserColumnName="condmin" type="xs:string" minOccurs="0" />
+              <xs:element name="Tanggal" msprop:Generator_ColumnVarNameInTable="columnTanggal" msprop:Generator_ColumnPropNameInRow="Tanggal" msprop:Generator_ColumnPropNameInTable="TanggalColumn" msprop:Generator_UserColumnName="Tanggal" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtHeadRep2" msprop:Generator_TableClassName="dtHeadRep2DataTable" msprop:Generator_TableVarName="tabledtHeadRep2" msprop:Generator_TablePropName="dtHeadRep2" msprop:Generator_RowDeletingName="dtHeadRep2RowDeleting" msprop:Generator_RowChangingName="dtHeadRep2RowChanging" msprop:Generator_RowEvHandlerName="dtHeadRep2RowChangeEventHandler" msprop:Generator_RowDeletedName="dtHeadRep2RowDeleted" msprop:Generator_UserTableName="dtHeadRep2" msprop:Generator_RowChangedName="dtHeadRep2RowChanged" msprop:Generator_RowEvArgName="dtHeadRep2RowChangeEvent" msprop:Generator_RowClassName="dtHeadRep2Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SKU" msprop:Generator_ColumnVarNameInTable="columnSKU" msprop:Generator_ColumnPropNameInRow="SKU" msprop:Generator_ColumnPropNameInTable="SKUColumn" msprop:Generator_UserColumnName="SKU" type="xs:string" minOccurs="0" />
+              <xs:element name="CS" msprop:Generator_ColumnVarNameInTable="columnCS" msprop:Generator_ColumnPropNameInRow="CS" msprop:Generator_ColumnPropNameInTable="CSColumn" msprop:Generator_UserColumnName="CS" type="xs:string" minOccurs="0" />
+              <xs:element name="DZ" msprop:Generator_ColumnVarNameInTable="columnDZ" msprop:Generator_ColumnPropNameInRow="DZ" msprop:Generator_ColumnPropNameInTable="DZColumn" msprop:Generator_UserColumnName="DZ" type="xs:string" minOccurs="0" />
+              <xs:element name="PC" msprop:Generator_ColumnVarNameInTable="columnPC" msprop:Generator_ColumnPropNameInRow="PC" msprop:Generator_ColumnPropNameInTable="PCColumn" msprop:Generator_UserColumnName="PC" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:dtRep" />
+      <xs:field xpath="mstns:PJP" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
