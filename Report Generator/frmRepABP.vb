@@ -57,9 +57,15 @@ Public Class frmRepABP
     End Function
 
     Private Sub frmRepABP_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        With Me.rvABP.LocalReport
+            .ReportPath = My.Application.Info.DirectoryPath & "\AchievementByProduct.rdlc"
+            '.DataSources.Clear()
+        End With
+
         frmABP.GetDataABP()
         dgvTods(frmABP.dgridSKU)
         Me.rvABP.RefreshReport()
+        SSloading.Close()
     End Sub
 
 End Class
